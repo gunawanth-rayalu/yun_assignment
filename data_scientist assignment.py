@@ -1,5 +1,5 @@
 # Fine tuning scripit for emotion detection 
-
+# question 2
 
 import tensorflow as tf
 base_model = tf.keras.applications.xception.Xception(weights="imagenet",include_top=False)
